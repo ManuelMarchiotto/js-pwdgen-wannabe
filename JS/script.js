@@ -2,11 +2,17 @@
 const nome = prompt("Qual'è il tuo nome?");
 const cognome = prompt("Qual'è il tuo cognome?");
 const colorePreferito = prompt("Qual'è il tuo colore preferito?");
+const number1 = prompt("Scegli un numero");
+const number2 = prompt("Scegli un'altro numero");
 //End Declaration of variables
 
-const password = nome.concat(cognome,colorePreferito,21)
+let a = number1/number2;
+let b = number1%number2;
+let password = nome.concat(cognome,colorePreferito,Math.trunc(a),b);
 
-console.log(password);
+//console.log(Math.trunc(number));
+//console.log(password);
+
 
 
 //Write to html page
