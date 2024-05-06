@@ -19,4 +19,5 @@ let password = nome.concat(cognome,colorePreferito,Math.trunc(a),b);
 document.getElementById("name").innerHTML = nome;
 document.getElementById("surname").innerHTML = cognome;
 document.getElementById("favouriteColor").innerHTML = colorePreferito;
+document.getElementById("password").innerHTML = password;
 //End write to html page
